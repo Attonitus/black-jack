@@ -1,0 +1,70 @@
+:root{
+    --backgroundColor:  #205013;
+    --fontColor: white;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: var(--backgroundColor);
+    color: var(--fontColor);
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-block-end: 1rem;
+}
+
+
+button{
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--fontColor);
+    border: none;
+}
+button:disabled{
+    opacity: 50%;
+    background-color: gray;
+}
+
+
+.btnNew{
+    background-color: #ac3333;
+}
+
+.btnDraw{ 
+    background-color: #337aac;
+
+}
+
+.btnStop{
+    background-color: #337aac;
+}
+
+.buttons{
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.board{
+    max-inline-size: 50rem;
+    margin-inline: auto;
+    margin-block-start: 1rem;
+    padding-inline: .5rem;
+}
+
+.cards img{
+    inline-size: 8rem;
+    position: relative;
+    left: 7rem;
+    margin-left: -5rem;
+}
+
+.cards{
+    min-block-size: 12rem;
+}
